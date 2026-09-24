@@ -1,0 +1,25 @@
+# Original working materials are retained locally, not part of the release.
+/legacy/
+/data/*
+!/data/README.md
+/outputs/
+/dist/
+/build/
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+node_modules/
+.env
+.env.*
+!.env.example
+*.wav
+*.mp3
+*.npy
+*.pt
+*.pth
+*.ckpt

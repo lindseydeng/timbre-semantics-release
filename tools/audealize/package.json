@@ -1,0 +1,18 @@
+{
+  "name": "timbre-audealize-tools",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Generate timbre experiment stimuli using Audealize",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "render": "node audealize_batch.js",
+    "trim": "node trim_wav_folder.js"
+  },
+  "dependencies": {
+    "playwright": "^1.59.1"
+  }
+}

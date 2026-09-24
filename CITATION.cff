@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or its reference results, cite the accompanying ISMIR 2026 paper."
+title: "Timbre Semantics: Research Code"
+type: software
+license: MIT
+authors:
+  - family-names: Deng
+    given-names: Qixin
+  - family-names: Pardo
+    given-names: Bryan
+  - family-names: Pappas
+    given-names: Thrasyvoulos N.
+preferred-citation:
+  type: conference-paper
+  title: "Do Joint Language-Audio Embeddings Encode Perceptual Timbre Semantics?"
+  authors:
+    - family-names: Deng
+      given-names: Qixin
+    - family-names: Pardo
+      given-names: Bryan
+    - family-names: Pappas
+      given-names: Thrasyvoulos N.
+  year: 2026
+  collection-title: "Proceedings of the 27th International Society for Music Information Retrieval Conference"
+  conference:
+    name: "ISMIR 2026"
+    city: "Abu Dhabi"
+    country: "AE"

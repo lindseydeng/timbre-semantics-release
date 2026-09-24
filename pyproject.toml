@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "timbre-semantics"
+version = "0.1.0"
+description = "Evaluate audio-language models against human timbre ratings and controlled audio effects"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = ["numpy>=1.24,<3", "pandas>=2,<3", "scipy>=1.10,<2"]
+
+[project.optional-dependencies]
+notebooks = ["jupyterlab>=4", "matplotlib>=3.7"]
+paper = ["matplotlib>=3.7"]
+laion = ["laion-clap", "torch", "librosa>=0.10"]
+msclap = ["msclap", "torch"]
+muq = ["muq", "torch", "librosa>=0.10"]
+openflam = ["openflam", "torch", "librosa>=0.10"]
+
+[project.scripts]
+timbre = "timbre_semantics.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

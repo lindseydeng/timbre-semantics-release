@@ -1,0 +1,14 @@
+# Run from the repository root:
+#   python -m pip install -r requirements.txt
+#
+# Installs this project, the `timbre` command, and the analysis/plotting dependencies:
+# numpy, pandas, scipy, matplotlib.
+# Versions are defined once in pyproject.toml to keep both installation methods aligned.
+#
+# For model inference, install ONE additional model extra in the same environment:
+#   python -m pip install -e ".[laion]"
+#   python -m pip install -e ".[msclap]"
+#   python -m pip install -e ".[muq]"
+#   python -m pip install -e ".[openflam]"
+# These model environments have not yet been validated with fresh inference.
+-e .[paper]

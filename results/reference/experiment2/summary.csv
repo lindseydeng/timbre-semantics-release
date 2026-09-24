@@ -1,0 +1,5 @@
+Model,Pos. slope rate ↑,Pos. final-Δ rate ↑,All-source consistency ↑,Mean Pearson r ↑,Mean Spearman ρ ↑
+LAION-CLAP,0.725,0.775,0.425,0.3543,0.3342
+MSCLAP,0.7167,0.7583,0.425,0.3608,0.3467
+MuQ-MuLan,0.7833,0.6417,0.475,0.5351,0.53
+OpenFLAM,0.525,0.4,0.225,0.0693,0.0733

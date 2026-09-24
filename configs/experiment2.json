@@ -1,0 +1,72 @@
+{
+  "scales": [
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "sources": [
+    "guitar",
+    "piano",
+    "mixture"
+  ],
+  "descriptors": {
+    "eq": [
+      "warm",
+      "cold",
+      "soft",
+      "loud",
+      "bright",
+      "soothing",
+      "harsh",
+      "heavy",
+      "cool",
+      "smooth",
+      "calm",
+      "clear",
+      "tinny",
+      "sharp",
+      "hard",
+      "crisp",
+      "mellow",
+      "dark",
+      "peaceful",
+      "gentle"
+    ],
+    "reverb": [
+      "echo",
+      "distant",
+      "warm",
+      "spacious",
+      "loud",
+      "deep",
+      "muffled",
+      "church",
+      "big",
+      "distorted",
+      "hollow",
+      "sad",
+      "soft",
+      "bass",
+      "strong",
+      "low",
+      "haunting",
+      "clear",
+      "tinny",
+      "hall"
+    ]
+  },
+  "source_stems": {
+    "guitar": [
+      "guitar"
+    ],
+    "piano": [
+      "piano",
+      "test_piano"
+    ],
+    "mixture": [
+      "mixture"
+    ]
+  }
+}
