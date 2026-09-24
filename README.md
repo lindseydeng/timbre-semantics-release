@@ -84,4 +84,18 @@ new renders are not expected to reproduce the saved paper scores exactly.
 - [Audio and generation](docs/running.md#generate-audio-with-audealize) · [Third-party notices](docs/third-party.md)
 
 Code: [MIT](LICENSE). Audio, datasets, and model weights have separate terms.
-To cite the paper, use [CITATION.cff](CITATION.cff).
+
+## Citation
+
+If you use this code or the reference results in your research, please cite:
+
+```bibtex
+@inproceedings{deng2026timbre,
+  author    = {Deng, Qixin and Pardo, Bryan and Pappas, Thrasyvoulos N.},
+  title     = {Do Joint Language-Audio Embeddings Encode Perceptual Timbre Semantics?},
+  booktitle = {Proceedings of the 27th International Society for Music Information Retrieval Conference},
+  year      = {2026}
+}
+```
+
+Citation metadata is also available in [CITATION.cff](CITATION.cff).
